@@ -1,0 +1,31 @@
+.Advisors {
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    margin:auto;
+    margin-top:70px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(217,223,224);
+    /* background: linear-gradient(90deg, rgba(217,223,224,1) 0%, rgba(215,230,232,1) 35%, rgba(255,255,255,0.9808123933167017) 100%, rgba(236,233,225,1) 100%, rgba(0,212,255,1) 100%);  */
+    border-radius: 15px;
+    border: 0px solid #ccc;
+}
+.Col {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.Processing {
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100px; /* Need a specific value to work */
+    margin-top:250px;
+    z-index: 20;
+}
+

@@ -1,0 +1,154 @@
+.Input {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* box-shadow: px 1px 1px 1px grey; */
+  border-radius: 5px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: 2px solid #7d7c7c;
+  background: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+.Logo {
+  justify-content: flex-start;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 45px;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 40px;
+  background: #fff;
+  margin: 120px auto;
+  box-shadow: 2px 2px 15px grey;
+  border-radius: 20px;
+}
+.or {
+  margin: auto;
+  width: 30px;
+  margin-top: 9px;
+}
+.ShowDivider {
+  display: block;
+}
+.HideDivider {
+  display: none;
+}
+.InputColor {
+  background-color: #fff !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  width: 200px !important;
+}
+
+.dispImage {
+  width: 225px;
+  height: 225px;
+  margin: auto;
+  z-index: 20px;
+}
+.buttonContainer {
+  width: 300px;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+.Select {
+  width: 100%;
+  background-color: #ebe8e8;
+  outline: none;
+  margin: 5px auto;
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 2px solid #7d7c7c;
+}
+.InputElement {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  height:35px;
+  display: block;
+  width: 300px !important;
+  box-sizing: border-box;
+  margin: 17px auto;
+  color: #000 !important;
+  font-size: 22px!important;
+}
+select {
+  border: 0px !important;
+  height:50px!important;
+}
+.Invalid {
+  outline: none;
+  border: 1px solid red;
+  background-color: #fda49a;
+  font: inherit;
+  display: block;
+  width: 250px;
+  box-sizing: border-box;
+}
+.InputElement:focus {
+  outline: none;
+  background-color: #ccc;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+}
+input {
+  border-color: #ccc!important;
+  width:350px !important;
+  height:53px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px!important;
+  background:#ccc;
+  padding-left:60px! important;
+  border: 1px solid #ccc !important;
+  border-radius:15px!important;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+  box-shadow: 0 0 10px #fff !important;
+  background-color: #fff!important;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.uploadlabel {
+  background-color: #42C0FC;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  width:100px;
+  height:50px;
+  margin-top:30px;
+  padding-top:8px !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+
+}
+.Size {
+  width:30px;
+  height:30px;
+}

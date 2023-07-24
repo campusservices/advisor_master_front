@@ -1,0 +1,19 @@
+.Filter {
+    position:absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    margin:60px auto;
+    width:40%;
+    height:320px;
+    margin:25px auto;
+    z-index:20;
+    background-color: #0a4370;
+    color:#fff;
+    border:2px solid #fff;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}

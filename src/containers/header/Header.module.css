@@ -1,0 +1,48 @@
+.Header {
+    display:flex;
+    flex-direction: row;
+   width:100%;
+   flex:1;
+   height:90px;
+   border:1px solid #ccc;
+   background-color: #0a4370;
+   font-size: 22px;
+   font-family: 'Oswald', sans-serif;
+   text-transform: Uppercase;
+}
+
+/* .Header {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    top:0px;
+    height:70px;
+    background:#0C7CC3;
+    margin:auto;
+    z-index: 10;
+   
+} */
+.Title {
+    margin-left:15px;
+    padding-top:5px;
+    display: flex;
+    justify-content: flex-start;
+    width:20%;
+}
+.Filter {
+    width: 60px;
+    height: 40px;
+    margin-right: 70px;
+    margin-top:3px;
+}
+.LoginLabel {
+    display:flex;
+    cursor:pointer;
+    width:90%;
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    justify-content: flex-end;
+    padding-top:13px;
+    padding-right:25px;
+}

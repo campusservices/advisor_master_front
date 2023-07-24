@@ -1,0 +1,62 @@
+.ModalForm {
+    position:absolute;
+    flex-direction: column;
+    width:600px;
+    top:0px;
+    left:0;
+    right:0;
+    margin:125px auto;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    z-index:10;
+    background-color: #fff;
+    height:230px;
+    font-family: 'Blinker', sans-serif;
+    z-index: 30;
+}
+.FailTitle{
+    width:600px!important;
+    height:50px;
+    background-color: red;
+    color:#fff;
+    padding-top: 2px;
+    padding-left:15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+}
+.SuccessTitle{
+    width:600px!important;
+    height:50px;
+    background-color: rgb(101, 153, 101);
+    color:#fff;
+    padding-top: 2px;
+    padding-left:15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+}
+.Button{
+    width:120px;
+    display:block;
+    margin:25px auto;
+    z-index:10;
+    color:black;
+    cursor:pointer;
+    height:35px;
+    border-radius: 5px;
+    background-color: red;
+}
+.Body {
+    display:flex;
+    width:100%;
+    margin:40px auto;
+    background-color: #fff;
+    color:#000;
+}
+.successColor {
+    background-color: green;
+}
+.failColor {
+    background-color: red;
+}

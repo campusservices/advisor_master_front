@@ -1,0 +1,110 @@
+.Login {
+    position:relative;
+    background-color: #fff;
+    color:#000;
+    display:block;
+    margin:auto;
+    font-size: 15px;
+    border:0px #ccc solid;
+    border-radius:0px;
+    width:350px;
+    height:220px;
+   
+}
+.TitleLogin {
+    display:flex;
+    flex-direction: column;
+    color:#000;
+    display:block;
+    margin:auto;
+    border:0px #ccc solid;
+    width:270px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+   }
+.FieldBorder {
+    background-color: #fff;
+    color:#000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    display:block;
+    margin:auto;
+    font-size: 15px;
+    border:0px #ccc solid;
+    border-radius:5px;
+    width:310px;
+    height:40px;
+    margin:20px;
+}
+.Title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    padding-left:10px;
+    margin:auto;
+    width:130px;
+    font-weight: bold;
+    color:#398E3D;
+}
+.Container{
+    display:block;
+    margin:40px auto;
+    width:355px;
+    border:2px solid #398E3D;
+    border-radius:20px;
+    height:340px;
+}
+.Button{
+    width:310px;
+    height:45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px!important;
+    margin:auto;
+    font-weight: bold!important;
+    color:#fff!important;
+}
+.Label {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top:2px;
+    color:#000!important;
+}
+.Loading{
+    width:170px;
+    height:140px;
+    margin:40px auto;
+}
+.Penface {
+    width:225px;
+    margin:20px auto;
+   
+}
+.ToggleContainer {
+    width:57px;
+    height:28px;
+    padding-left:10px;
+}
+.ToggleButton {
+    cursor: pointer;
+    background-color:#F5F5F5;
+    position:relative;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    z-index:20;
+    box-shadow: 1px 1px 5px 1px #DEDEDE;
+}
+.ToggleBar {
+    position:relative;
+    top:-20px;
+    width:47px;
+    height:17px;
+    background-color:#BDBDBD;
+    border-radius:10px;
+ }
+ .Logo {
+    background-size: cover;
+    height:100vh;
+    width:50vw;
+}
+img .sideImg { height:100%; width:100%; background-size: cover;}

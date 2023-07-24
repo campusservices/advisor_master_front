@@ -1,0 +1,33 @@
+.Radio {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color:#000;
+   
+}
+input[type=radio] {
+    border-color: #ffcc00!important;
+    width:20px !important;
+    height:20px !important;
+    font-size:30px!important;
+    border: 2px !important;
+    accent-color: #FF0000;
+}
+select {
+    border:0 solid #000!important;
+    border-radius: 10px!important;
+    background-color: #39b158;
+    padding-left: 15px;
+    color:#fff;
+    height:45px;
+}
+.ComboBox {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    width:220px;
+    height:45px;
+    margin-bottom:20px;
+}
+.ButtonFont {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 20px;
+}
